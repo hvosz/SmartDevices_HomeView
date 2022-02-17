@@ -1,0 +1,53 @@
+.SmartDevice {
+  width: 45%;
+  max-width: 20rem;
+  padding-bottom: 0.2rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.SmartDevice__header {
+  width: 80%;
+  height: 1.5rem;
+  margin: 1rem auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.SmartDevice__favoriteImage {
+  height: 1.5rem;
+}
+
+.SmartDevice__deviceStatus {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0.3rem;
+  border-radius: 0.35rem;
+  background-color: green;
+}
+
+.SmartDevice_deviceName {
+  text-align: center;
+}
+
+.SmartDevice_imageHolder {
+  margin: 0 auto;
+  width: 4.5rem;
+}
+.SmartDevice__image {
+  width: 4.5rem;
+}
+.SmartDevice__mainInformation {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.SmartDevice__deviceType {
+  text-align: center;
+}
+@media only screen and (min-width: 900px) {
+  .SmartDevice {
+    width: 30%;
+  }
+}

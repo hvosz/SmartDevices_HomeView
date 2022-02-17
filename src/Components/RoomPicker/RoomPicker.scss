@@ -1,0 +1,45 @@
+.RoomPicker {
+  width: 98%;
+  max-width: 50rem;
+  height: 4rem;
+  margin: 1rem auto 0rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.RoomPicker_Holder {
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition-duration: transform 1s;
+}
+.RoomPicker_Holder::-webkit-scrollbar {
+  display: none;
+}
+
+.RoomPicker__roomButton {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  line-height: 1.8rem;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.RoomPicker__roomIndicator {
+  position: absolute;
+  left: 24.2rem;
+  bottom: 0;
+  width: 3rem;
+  height: 0.1rem;
+  background-color: orange;
+}

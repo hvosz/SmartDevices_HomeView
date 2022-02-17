@@ -1,0 +1,18 @@
+.DevicesHolder {
+  width: 100%;
+  height: calc(100vh - 11rem);
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+.DevicesHolder__innerHolder {
+  width: 100%;
+  max-width: 70rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+}
