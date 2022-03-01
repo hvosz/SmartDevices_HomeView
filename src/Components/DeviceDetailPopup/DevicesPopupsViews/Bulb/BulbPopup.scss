@@ -1,0 +1,43 @@
+.BulbPopup {
+  width: 90%;
+  height: 5rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BulbPopup__inner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.BulbPopup__brightnesChange,
+.BulbPopup__colorChange {
+  width: 50%;
+}
+
+p {
+  text-align: center;
+}
+
+.BulbPopup__colorChangeGrid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 2rem);
+  grid-gap: 0.6rem;
+  grid-auto-rows: minmax(2rem, auto);
+  max-width: min-content;
+  height: 5rem;
+}
+
+.BulbPopup__color {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border: none;
+}

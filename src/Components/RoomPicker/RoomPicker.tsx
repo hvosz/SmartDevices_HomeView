@@ -1,6 +1,10 @@
-import React, { useRef, useState } from "react";
+// React Hooks
+import { useRef, useState } from "react";
+
+//Assets
 import "./RoomPicker.scss";
 
+//React icons
 import { MdFavoriteBorder } from "react-icons/md";
 
 const RoomPicker = () => {

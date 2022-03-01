@@ -1,0 +1,33 @@
+.OutletPopup {
+  width: 90%;
+  height: 5rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.OutletPopup__inner {
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.OutletPopup__powerConsumption {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+}
+.Outletpopup__refreshButton {
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 0.3rem;
+  height: 3rem;
+  padding: 1rem 2rem;
+  line-height: 0rem;
+  font-weight: bold;
+  //   display: block;
+}
